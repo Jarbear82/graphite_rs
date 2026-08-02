@@ -3,5 +3,19 @@
 version = 4
 
 [[package]]
-name = "graphite_rs"
+name = "graphite_core"
 version = "0.1.0"
+
+[[package]]
+name = "gui"
+version = "0.1.0"
+dependencies = [
+ "graphite_core",
+]
+
+[[package]]
+name = "headless"
+version = "0.1.0"
+dependencies = [
+ "graphite_core",
+]
